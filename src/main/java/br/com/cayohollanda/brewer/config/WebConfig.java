@@ -27,11 +27,13 @@ import br.com.cayohollanda.brewer.controller.CervejasController;
  * @project springexperts
  */
 
+// Classe responsável pela configuração da view do projeto
 @Configuration
 @ComponentScan(basePackageClasses = CervejasController.class)
 @EnableWebMvc
 public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 	
+	// O applicationContext é preenchido automaticamente pelo Spring
 	private ApplicationContext applicationContext;
 	
 	/* (non-Javadoc)
