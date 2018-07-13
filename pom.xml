@@ -32,7 +32,7 @@
 		<hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
 		
 		<!-- Thymeleaf - Layout Dialect -->
-		<thymeleaf-layout-dialect.version>2.0.0</thymeleaf-layout-dialect.version>
+		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
 	</properties>
 
 	<build>
